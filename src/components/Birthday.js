@@ -37,7 +37,7 @@ class Birthday extends React.Component {
         <NavBar />
         <h1>Birthday Guesses</h1>
         <div className="Guesses">
-          {sortedGuesses.map((guess, i) => <Guess key={i} name={guess.name} month={guess.month} day={guess.day} status={today.getDate() >= guess.day ? "out":"in"}/> )}
+          {sortedGuesses.map((guess, i) => <Guess key={i} name={guess.name} month={guess.month} day={guess.day} status={today.getDate() > guess.day ? "out":"in"}/> )}
         </div>
       </div>
     )
