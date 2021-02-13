@@ -25,7 +25,8 @@ class Birthday extends React.Component {
         { name: "Marshall", month: 2, day: 10},
         { name: "Jamie", month: 2, day: 12},
         { name: "Jennie", month: 2, day: 14},
-        { name: "Ari", month: 2, day: 12}
+        { name: "Ari", month: 2, day: 12},
+        { name: "Zoe", month: 2, day: 18}
       ]
 
     let sortedGuesses = guesses.sort((a, b) => a.day > b.day ? 1:-1)
