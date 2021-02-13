@@ -100,3 +100,10 @@ div.Card.out {
 .out {
   opacity: 0.5;
 }
+
+@media only screen and (max-width: 600px) {
+  .BdayContainer {
+    margin: 0 auto;
+    width: 90%;
+  }
+}
