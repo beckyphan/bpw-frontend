@@ -57,7 +57,7 @@ button.soon {
   background-color: white;
   border-radius: 50px;
   transition-duration: 0.4s;
-  opacity: 75%;
+  opacity: 95%;
 }
 
 button.soon:hover {
@@ -98,5 +98,5 @@ div.Card.out {
 }
 
 .out {
-  opacity: 50%;
+  opacity: 80%;
 }
