@@ -16,9 +16,6 @@ function App() {
           <Route path="/birthday">
             <Birthday />
           </Route>
-          <Route path="/baby">
-            <Baby />
-          </Route>
           <Route path="/">
             <Baby />
           </Route>

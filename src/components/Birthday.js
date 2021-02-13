@@ -1,5 +1,6 @@
 import React from 'react';
 import NavBar from './NavBar';
+import Footer from './Footer';
 import Guess from './Guess';
 
 class Birthday extends React.Component {
@@ -44,6 +45,7 @@ class Birthday extends React.Component {
         <div className="Guesses">
           {sortedGuesses.map((guess, i) => <Guess key={i} name={guess.name} month={guess.month} day={guess.day} status={today.getDate() > guess.day ? "out":"in"}/> )}
         </div>
+        <Footer />
       </div>
     )
   }
