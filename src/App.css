@@ -112,9 +112,19 @@ div.Card.out {
 }
 
 @media only screen and (max-width: 600px) {
+
+  h1 {
+    font-size: 2rem;
+  }
+
   .BdayContainer {
-    margin: 0 auto;
+    min-height: 100%;
     width: 90%;
-    min-height: calc(10px + 2vmin);
+    margin: 5px auto 50px;
+  }
+
+  div.Card {
+    margin: 10px;
+    padding: 10px;
   }
 }
