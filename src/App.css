@@ -47,7 +47,7 @@
   background-color: #008CBA;
   opacity: 0.5;
   color: white;
-  padding: 3px;
+  padding: 2px;
   text-align: center;
 }
 
@@ -78,7 +78,7 @@ button.soon:hover {
 }
 
 .BdayContainer {
-  margin: 0 auto;
+  margin: 0 auto 75px;
   width: 70%;
 }
 
@@ -126,5 +126,9 @@ div.Card.out {
   div.Card {
     margin: 10px;
     padding: 10px;
+  }
+
+  .Footer {
+    padding: 0px;
   }
 }
