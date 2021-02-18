@@ -55,6 +55,10 @@
   opacity: 0.75;
 }
 
+img {
+  width: 50%;
+}
+
 a {
   color: inherit;
   text-decoration: none;
