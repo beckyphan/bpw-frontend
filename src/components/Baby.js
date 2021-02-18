@@ -1,15 +1,14 @@
 import { Link } from "react-router-dom";
+import IMG_3822 from "../media/IMG_3822.PNG"
 
 function Baby() {
 
   return(
     <div className="App">
       <header className="App-header">
-        <h1>
-          Hayden J. Phan-Wheeler
-        </h1>
+        <img src={IMG_3822} />
         <p>
-          <Link to="/birthday" className="Hlink"><button className="soon">has arrived!</button></Link>
+          <Link to="/birthday" className="Hlink"><button className="soon">Birthday Guess Winners</button></Link>
         </p>
       </header>
     </div>

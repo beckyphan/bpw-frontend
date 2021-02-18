@@ -7,6 +7,7 @@ class NavBar extends React.Component {
   render() {
     return(
       <nav className="Nav">
+        <NavLink exact activeClassName="active" className="nav-link" to="/">home</NavLink>
         <NavLink exact activeClassName="active" className="nav-link" to="/birthday">birthday</NavLink>
       </nav>
     )

@@ -41,8 +41,6 @@ class Birthday extends React.Component {
       <div className="BdayContainer">
         <NavBar />
         <h1>Birthday Guesses</h1>
-        <h2>Born on 2/18/2021</h2>
-        <h3>Our winners are...</h3>
         <div className="Guesses">
           {sortedGuesses.map((guess, i) => <Guess key={i} name={guess.name} month={guess.month} day={guess.day} status={guess.status}/> )}
         </div>
