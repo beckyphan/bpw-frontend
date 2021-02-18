@@ -12,7 +12,7 @@ class Birthday extends React.Component {
         {status: "out", name: "Allan", month: 2, day: 22},
         {status: "out", name: "Annie", month: 2, day: 17},
         {status: "out", name: "Andrew", month: 2, day: 16},
-        {status: "out", name: "Sarah", month: 2, day: 18},
+        {status: "in", name: "Sarah", month: 2, day: 18},
         {status: "out", name: "Dan", month: 2, day: 20},
         {status: "out", name: "Grace", month: 2, day: 14},
         {status: "out", name: "Mia", month: 2, day: 14},
@@ -28,7 +28,7 @@ class Birthday extends React.Component {
         {status: "out", name: "Jennie", month: 2, day: 14},
         {status: "out", name: "Ari", month: 2, day: 12},
         {status: "in", name: "Zoe", month: 2, day: 18},
-        {status: "in", name: "Colleen", month: 2, day: 16},
+        {status: "out", name: "Colleen", month: 2, day: 16},
         {status: "out", name: "Karen", month: 2, day: 19},
         {status: "out", name: "Nita's #2 Guess", month: 2, day: 8},
         {status: "out", name: "Nita's #3 Guess", month: 2, day: 11},
@@ -41,6 +41,8 @@ class Birthday extends React.Component {
       <div className="BdayContainer">
         <NavBar />
         <h1>Birthday Guesses</h1>
+        <h2>Born on 2/18/2021</h2>
+        <h3>Our winners are...</h3>
         <div className="Guesses">
           {sortedGuesses.map((guess, i) => <Guess key={i} name={guess.name} month={guess.month} day={guess.day} status={guess.status}/> )}
         </div>
