@@ -37,8 +37,6 @@ class Birthday extends React.Component {
 
     let sortedGuesses = guesses.sort((a, b) => a.day > b.day ? 1:-1)
 
-    let today = new Date();
-
     return(
       <div className="BdayContainer">
         <NavBar />
